@@ -108,6 +108,7 @@ section{
 	border-top-right-radius: 30px;
 	border-bottom-right-radius: 30px;
 	outline: none;
+	margin-left: -4px;
 }
 
 body{
