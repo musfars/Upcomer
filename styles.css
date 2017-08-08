@@ -26,9 +26,10 @@ nav a:hover {
 	
 header,footer{
 	text-align: center;
+	margin-top: 10px;
 }
 
-#container{
+.container{
 	display: flex;
     justify-content: space-around;
     align-items: center;
@@ -45,11 +46,57 @@ header,footer{
 	color: #999999;
 }
 
-section{
+.main1{
 	background-image: url("images/bg1_repeat.png");
 }
 
-#stay{
+.main2{
+	align-items: center;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+.main3and4{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #f5f5f5;
+}
+
+
+.main3{
+	display: flex;
+	flex-direction: column;
+	background-color: #f5f5f5;
+	
+}
+
+.main4{
+	display: flex;
+	flex-direction: column;
+	background-color: #f5f5f5;
+	align-items: center;
+}
+
+.main5{
+	background-image: url("images/bg2.png");
+}
+
+.main6{
+	background-color:#333333;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+.main6Sub{
+	display: flex;
+	flex-direction: row;
+
+}
+.stay{
 	font-family: Asap-Bold;
 	font-size: 52pt;
 	color: #ffffff;
@@ -57,7 +104,7 @@ section{
 	margin: 0;
 }
 
-#we{
+.we{
 	font-family: Asap-Regular;
 	font-size: 24pt;
 	color: #ffffff;
@@ -65,7 +112,7 @@ section{
 
 }
 
-#coming{
+.coming{
 	font-family: Asap-Regular;
 	font-size: 16pt;
 	color: #ffffff;
@@ -73,16 +120,16 @@ section{
 
 }
 
-#down{
+.down{
 	display: block;
 	margin: 0 auto;
 }
 
-#credentials{
+.credentials{
 	text-align: center;
 }
 
-#email{
+.email{
 	font-family: Asap-Regular;
 	text-align: center;
 	font-size: 20.3pt;
@@ -98,7 +145,7 @@ section{
 	outline: none;
 }
 
-#ok{
+.ok{
 	font-family: Asap-Regular;
 	font-size: 20.3pt;
 	color: #ffffff;
@@ -108,9 +155,158 @@ section{
 	border-top-right-radius: 30px;
 	border-bottom-right-radius: 30px;
 	outline: none;
+	border:0;
 	margin-left: -4px;
 }
 
 body{
 	margin: 0;
+}
+
+.personalize{
+	text-align: center;
+	font-family: Asap-Bold;
+	font-size: 36pt;
+	color: #333333;
+}
+
+.choose{
+	text-align: center;
+	font-family: Asap-Regular;
+	font-size: 20pt;
+	color: #999999;
+}
+
+
+.All{
+	font-family: Asap-Bold;
+	font-size: 36pt;
+	color: #333333;
+}
+
+.Follow{
+	font-family: Asap-Regular;
+	font-size: 20pt;
+	color: #999999;
+}
+
+.Be_the{
+	font-family: Asap-Bold;
+	font-size: 36pt;
+	color: #333333;
+	text-align: right;
+}
+
+.Get_push{
+	font-family: Asap-Regular;
+	font-size: 20pt;
+	color: #999999;
+	text-align: right;
+}
+
+.column1{
+	padding-top: 100px;
+}
+
+.illustration1{
+text-align: right;
+}
+
+.illustration2{
+	padding-top: 30px;
+}
+
+.The_first{
+	font-family: Asap-Regular;
+	font-size: 24pt;
+	color: #ffffff;
+	text-align: center;
+}
+
+.up{
+	font-family: Asap-Bold;
+	font-size: 48pt;
+	color: #ffffff;
+	padding-top: 40px;
+	margin-left: -70px;
+	
+}
+
+.hand{
+	padding-top: 20px;
+	
+}
+
+.about_why{
+	display: flex;
+	flex-direction: row;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	align-items: center;
+	text-align: left;
+	justify-content: space-around;
+}
+
+.Why_we{
+	font-family: Asap-Bold;
+	font-size: 38pt;
+	color: #333333;
+}
+
+.We_believe{
+	font-family: Asap-Regular;
+	font-size: 20pt;
+	color: #999999;
+}
+
+.HeaderEnd{
+	height: 2px;
+	background-color: #f5f5f5;
+}
+
+.lookingFor{
+	align-items: center;
+	text-align: center;
+}
+
+
+.looking{
+	font-family: Asap-Bold;
+	font-size: 36pt;
+	color: #333333;
+	text-align: center;
+}
+
+.awesomeProduct{
+	font-family: Asap-Regular;
+	font-size: 20pt;
+	color: #999999;
+	text-align: center;
+}
+
+
+::-webkit-input-placeholder {
+ /* Chrome/Opera/Safari */ color: #ffffff;
+  }
+
+::-moz-placeholder {
+ /* Firefox 19+ */ color: #ffffff;
+  } 
+
+.aboutEmail{
+	margin-top: 15px;
+	text-align: center;
+	background-color: #2ecc71;
+	color: #ffffff;
+	font-family: Asap-Regular;
+	font-size: 20.3pt;
+	height: 60px;
+	width: 310px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	margin-bottom: 100px;
+	outline: none;
+	border: 0;
 }
