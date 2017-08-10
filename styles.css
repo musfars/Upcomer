@@ -34,8 +34,8 @@ header{
 
 footer{
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	margin: auto;
 	min-width: 1024px;
 	max-width: 1024px;
@@ -80,7 +80,8 @@ footer{
 	flex-direction: column;
 	background-color: #f5f5f5;
 	padding-right: 30px;
-	padding-top: 300px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 	flex:1;
 	
 }
@@ -90,7 +91,8 @@ footer{
 	flex-direction: column;
 	background-color: #f5f5f5;
 	align-items: flex-start;
-	padding-top: 300px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 	flex: 1;
 }
 
@@ -190,6 +192,7 @@ footer{
 
 body{
 	margin: 0;
+	display: grid;
 }
 
 .personalize{
@@ -254,12 +257,16 @@ text-align: right;
 	padding-top: 60px;
 }
 
+.illustration3{
+	padding-top: 110px;
+}
+
 .The_first{
 	font-family: Asap-Regular;
 	font-size: 24pt;
 	color: #ffffff;
 	text-align: center;
-	width: 1200px;
+	width: 100%;
     margin: auto;
     padding-top: 40px;
 }
@@ -284,9 +291,18 @@ text-align: right;
 	flex-direction: row;
 	margin-top: 80px;
 	margin-bottom: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
 	align-items: center;
 	text-align: left;
 	justify-content: space-around;
+	max-width: 1024px;
+	min-width: 1024px;
+	margin: auto;
+}
+
+.Why_header{
+	padding-right: 40px;
 }
 
 .Why_we{
@@ -307,9 +323,11 @@ text-align: right;
 }
 
 .lookingFor{
-	padding-top: 600px;
+	padding-top: 50px;
 	align-items: center;
 	text-align: center;
+	max-width: 1024px;
+    margin: auto;
 }
 
 
@@ -356,8 +374,9 @@ text-align: right;
 
 .Milestones{
 	position: relative;
-	height: 100px;
-	widows: 100%;
+	height: 700px;
+	background-color: #f5f5f5;
+	margin: 0;
 }
 
 .mainCircle{
@@ -369,12 +388,11 @@ text-align: right;
 	position: absolute;
 	border: 6px solid transparent;
 	border-color: #ffffff;
-	top:-50%;
+	top:-43px;
 	left:50%;
-	transform: translate(-50%);
+	transform: translateX(-50%);
 	font-family: Asap-Regular;
-	font-size:20.3pt;
-	text-align: center;
+	font-size:20.3pt;	
 	color:grey;
 	align-items: center;
 	justify-content: center;
@@ -384,115 +402,124 @@ text-align: right;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
+	height: 100%;
 }
 
 .milestoneLeft{
-	width:49.8%;
-	height:580px;
+	width:50%;
 	background-color: #f5f5f5;
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 100px;
+	border-right: 6px solid white;
+	align-items: flex-end;
+	
 }
 
 .milestoneRight{
-	width: 49.8%;
-	height:58	0px;
+	width: 50%;
 	background-color: #f5f5f5;
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 100px;
-
 }
 
 .milestoneLeftTop{
 	background-color: white;
-	width: 80%;
-	margin-left: 12%;
-	margin-top: 10%;
+
 }
 
 .milestoneLeftBottom{
 	background-color: white;
-	width: 80%;
-	margin-left: 12%;
-	margin-top: 9%;
+
 }
 
 .milestoneRightTop{
 	background-color: white;
-	width: 80%;
-	margin-left: 46px;
-	margin-top: 170px;
+
 }
 
 .milestoneRightBottom{
 	background-color: white;
-	width: 80%;
-	margin-left: 46px;
-	margin-top: 55px;
+
 }
 
 .milestoneLeftTopContainer{
 	display: flex;
 	flex-direction: row;
+	width: 420px;
+	margin-right: 41px;
+	margin-top: 60px;
 	position: relative;
 }
 
 .milestoneLeftTopArrow{
-	height: 0px;
-	width: 0px;
-	margin-top: 19%;
-	border-top: 10px solid transparent;
+	width: 0; 
+  	height: 0;
+  	border-top: 10px solid transparent;
   	border-bottom: 10px solid transparent;
   	border-left: 10px solid white;
+  	position: absolute;
+  	top: 50%;
+  	left: 100%;
 }
 
 .milestoneLeftBottomContainer{
 	display: flex;
 	flex-direction: row;
+	width: 420px;
+	margin-right: 41px;
 	position: relative;
+	margin-top: 148px;
 }
 
 .milestoneLeftBottomArrow{
-	height: 0px;
-	width: 0px;
-	margin-top: 19%;
-	border-top: 10px solid transparent;
+	width: 0; 
+  	height: 0;
+  	border-top: 10px solid transparent;
   	border-bottom: 10px solid transparent;
   	border-left: 10px solid white;
+  	position: absolute;
+  	top: 50%;
+  	left: 100%;
 }
 
 .milestoneRightTopContainer{
 	display: flex;
 	flex-direction: row;
 	position: relative;
+	width: 420px;
+	margin-left: 41px;
+	margin-top: 200px;
 }
 
 .milestoneRightTopArrow{
-	height: 0px;
-	width: 0px;
-	margin-top: 35%;
-	margin-left: -81.5%;
-	border-top: 10px solid transparent;
+	width: 0; 
+  	height: 0;
+  	border-top: 10px solid transparent;
   	border-bottom: 10px solid transparent;
   	border-right: 10px solid white;
+  	position: absolute;
+  	top: 50%;
+  	left: -10px;
 }
 
 .milestoneRightBottomContainer{
 	display: flex;
 	flex-direction: row;
+	width: 420px;
+	margin-left: 41px;
+	margin-top: 146px;
 	position: relative;
 }
 
 .milestoneRightBottomArrow{
-	height: 0px;
-	width: 0px;
-	margin-top: 110px;
-	margin-left: -521px;
-	border-top: 10px solid transparent;
+	width: 0; 
+  	height: 0;
+   	border-top: 10px solid transparent;
   	border-bottom: 10px solid transparent;
   	border-right: 10px solid white;
+  	position: absolute;
+  	top: 50%;
+  	left: -10px;
 }
 
 .milestoneHeader{
@@ -515,12 +542,12 @@ text-align: right;
 .milestoneLeftTopCircle{
 	height: 30px;
 	width: 30px;
-	margin-top: 10%;
 	border-radius: 50%;
 	background-color: #f7d4d4;
 	position: absolute;
-	top:52px;
-	right:-19px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 20%;
 }
 
 .milestoneLeftBottomCircle{
@@ -529,8 +556,9 @@ text-align: right;
 	border-radius: 50%;
 	background-color: #eb9393;
 	position: absolute;
-	top:115px;
-	right:-19px;
+ 	left: 50%;
+    transform: translate(-50%,-50%);
+    top: 60%;
 }
 
 .milestoneRightTopCircle{
@@ -539,8 +567,9 @@ text-align: right;
 	border-radius: 50%;
 	background-color: #efa9a9;
 	position: absolute;
-	top:220px;
-	right:627px;
+ 	left: 50%;
+    transform: translate(-50%,-50%);
+    top: 40%;
 
 }
 
@@ -550,8 +579,9 @@ text-align: right;
 	border-radius: 50%;
 	background-color: #e36868;
 	position: absolute;
-	top:105px;
-	right:627px;
+ 	left: 50%;
+    transform: translate(-50%,-50%);
+    top: 80%;
 }
 
 .nowCircle{
@@ -563,9 +593,9 @@ text-align: right;
 	position: absolute;
 	border: 6px solid transparent;
 	border-color: #ffffff;
-	top:530%;
-	left:50%;
-	transform: translate(-50%);
+ 	left: 50%;
+    transform: translate(-50%,-50%);
+    top: 100%;
 	font-family: Asap-Regular;
 	font-size:20.3pt;
 	text-align: center;
@@ -586,4 +616,6 @@ text-align: right;
 	font-size: 13pt;
 }
 
+.fbLogo{
+	padding-right: 10px;
 }
