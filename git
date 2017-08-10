@@ -1,0 +1,17 @@
+git checkout -b newBranch // from master
+git add + git commit 
+
+git fetch origin
+
+git rebase origin/master
+
+if conflict, do
+  resolve conflict
+  git add <conflicted files>
+  git rebase --continue
+  repeat until done
+
+git push origin newBranch (-f)
+
+
+
