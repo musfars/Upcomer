@@ -15,7 +15,6 @@ nav {
 nav a {
     color: black;
     text-align: center;
-    padding: 10px;
     text-decoration: none;
     font-family: Asap-Bold;
     font-size: 18pt;
@@ -24,11 +23,26 @@ nav a:hover {
     background-color: #111;
 }
 	
-header,footer{
+header{
 	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin: auto;
+	min-width: 1024px;
+	max-width: 1024px;
 }
 
-#container{
+footer{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: auto;
+	min-width: 1024px;
+	max-width: 1024px;
+}
+}
+
+.container{
 	display: flex;
     justify-content: space-around;
     align-items: center;
@@ -45,44 +59,107 @@ header,footer{
 	color: #999999;
 }
 
-section{
+.main1{
 	background-image: url("images/bg1_repeat.png");
 }
 
-#stay{
+.main2{
+	align-items: center;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+.main3and4{
+	display: flex;
+	flex-direction: row;
+}
+
+
+.main3{
+	display: flex;
+	flex-direction: column;
+	background-color: #f5f5f5;
+	padding-right: 30px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	flex:1;
+	
+}
+
+.main4{
+	display: flex;
+	flex-direction: column;
+	background-color: #f5f5f5;
+	align-items: flex-start;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	flex: 1;
+}
+
+.main5{
+	background-image: url("images/bg2.png");
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.main6{
+	background-color:#333333;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 10px;
+	
+}
+.main6Sub{
+	display: flex;
+	flex-direction: row;
+
+}
+.stay{
 	font-family: Asap-Bold;
 	font-size: 52pt;
 	color: #ffffff;
+	width: 820px;
 	text-align: center;
-	margin: 0;
+	margin: auto;
+	padding-top: 65px;
 }
 
-#we{
+.we{
 	font-family: Asap-Regular;
 	font-size: 24pt;
 	color: #ffffff;
 	text-align: center;
+	width: 820px;
+	margin: auto;
+	padding-top: 40px;
 
 }
 
-#coming{
+.coming{
 	font-family: Asap-Regular;
 	font-size: 16pt;
 	color: #ffffff;
 	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin: auto;
 
 }
 
-#down{
+.down{
 	display: block;
 	margin: 0 auto;
 }
 
-#credentials{
-	text-align: center;
+.credentials{
+	padding-top: 30px;
+	position: relative;
+	margin: auto;
+	width: 370px;	
 }
 
-#email{
+.email{
 	font-family: Asap-Regular;
 	text-align: center;
 	font-size: 20.3pt;
@@ -96,9 +173,10 @@ section{
 	border:0;
 	padding:0;
 	outline: none;
+
 }
 
-#ok{
+.ok{
 	font-family: Asap-Regular;
 	font-size: 20.3pt;
 	color: #ffffff;
@@ -108,9 +186,436 @@ section{
 	border-top-right-radius: 30px;
 	border-bottom-right-radius: 30px;
 	outline: none;
-	margin-left: -4px;
+	border:0;
+	position: absolute;
 }
 
 body{
 	margin: 0;
+	display: grid;
+}
+
+.personalize{
+	text-align: center;
+	font-family: Asap-Bold;
+	font-size: 36pt;
+	color: #333333;
+	padding-top: 60px;
+}
+
+.choose{
+	text-align: center;
+	font-family: Asap-Regular;
+	font-size: 20pt;
+	color: #999999;
+	margin: auto;
+    width: 660px;
+}
+
+
+.All{
+	font-family: Asap-Bold;
+	font-size: 36pt;
+	color: #333333;
+}
+
+.Follow{
+	font-family: Asap-Regular;
+	font-size: 20pt;
+	color: #999999;
+	width: 650px;
+}
+
+.Be_the{
+	font-family: Asap-Bold;
+	font-size: 36pt;
+	color: #333333;
+	text-align: right;
+}
+
+.Get_push{
+	font-family: Asap-Regular;
+	font-size: 20pt;
+	color: #999999;
+	text-align: right;
+	width: 610px;
+	padding-left: 10px;
+}
+
+.column1{
+	padding-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.illustration1{
+text-align: right;
+}
+
+.illustration2{
+	padding-top: 60px;
+}
+
+.illustration3{
+	padding-top: 110px;
+}
+
+.The_first{
+	font-family: Asap-Regular;
+	font-size: 24pt;
+	color: #ffffff;
+	text-align: center;
+	width: 100%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.up{
+	font-family: Asap-Bold;
+	font-size: 48pt;
+	color: #ffffff;
+	padding-top: 40px;
+	margin-left: -70px;
+	
+}
+
+.hand{
+	padding-top: 20px;
+	display: block;
+	
+}
+
+.about_why{
+	display: flex;
+	flex-direction: row;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+	align-items: center;
+	text-align: left;
+	justify-content: space-around;
+	max-width: 1024px;
+	min-width: 1024px;
+	margin: auto;
+}
+
+.Why_header{
+	padding-right: 40px;
+}
+
+.Why_we{
+	font-family: Asap-Bold;
+	font-size: 38pt;
+	color: #333333;
+}
+
+.We_believe{
+	font-family: Asap-Regular;
+	font-size: 20pt;
+	color: #999999;
+}
+
+.HeaderEnd{
+	height: 2px;
+	background-color: #f5f5f5;
+}
+
+.lookingFor{
+	padding-top: 50px;
+	align-items: center;
+	text-align: center;
+	max-width: 1024px;
+    margin: auto;
+}
+
+
+.looking{
+	font-family: Asap-Bold;
+	font-size: 36pt;
+	color: #333333;
+	text-align: center;
+}
+
+.awesomeProduct{
+	font-family: Asap-Regular;
+	font-size: 20pt;
+	color: #999999;
+	text-align: center;
+}
+
+
+::-webkit-input-placeholder {
+ /* Chrome/Opera/Safari */ color: #ffffff;
+  }
+
+::-moz-placeholder {
+ /* Firefox 19+ */ color: #ffffff;
+  } 
+
+.aboutEmail{
+	margin-top: 15px;
+	text-align: center;
+	background-color: #2ecc71;
+	color: #ffffff;
+	font-family: Asap-Regular;
+	font-size: 20.3pt;
+	height: 60px;
+	width: 310px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	margin-bottom: 100px;
+	outline: none;
+	border: 0;
+}
+
+.Milestones{
+	position: relative;
+	height: 700px;
+	background-color: #f5f5f5;
+	margin: 0;
+}
+
+.mainCircle{
+	height: 80px;
+	display: flex;
+	width: 80px;
+	border-radius: 50%;
+	background-color: #f5f5f5;
+	position: absolute;
+	border: 6px solid transparent;
+	border-color: #ffffff;
+	top:-43px;
+	left:50%;
+	transform: translateX(-50%);
+	font-family: Asap-Regular;
+	font-size:20.3pt;	
+	color:grey;
+	align-items: center;
+	justify-content: center;
+}
+
+.milestoneSub{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	height: 100%;
+}
+
+.milestoneLeft{
+	width:50%;
+	background-color: #f5f5f5;
+	display: flex;
+	flex-direction: column;
+	border-right: 6px solid white;
+	align-items: flex-end;
+	
+}
+
+.milestoneRight{
+	width: 50%;
+	background-color: #f5f5f5;
+	display: flex;
+	flex-direction: column;
+}
+
+.milestoneLeftTop{
+	background-color: white;
+
+}
+
+.milestoneLeftBottom{
+	background-color: white;
+
+}
+
+.milestoneRightTop{
+	background-color: white;
+
+}
+
+.milestoneRightBottom{
+	background-color: white;
+
+}
+
+.milestoneLeftTopContainer{
+	display: flex;
+	flex-direction: row;
+	width: 420px;
+	margin-right: 41px;
+	margin-top: 60px;
+	position: relative;
+}
+
+.milestoneLeftTopArrow{
+	width: 0; 
+  	height: 0;
+  	border-top: 10px solid transparent;
+  	border-bottom: 10px solid transparent;
+  	border-left: 10px solid white;
+  	position: absolute;
+  	top: 50%;
+  	left: 100%;
+}
+
+.milestoneLeftBottomContainer{
+	display: flex;
+	flex-direction: row;
+	width: 420px;
+	margin-right: 41px;
+	position: relative;
+	margin-top: 148px;
+}
+
+.milestoneLeftBottomArrow{
+	width: 0; 
+  	height: 0;
+  	border-top: 10px solid transparent;
+  	border-bottom: 10px solid transparent;
+  	border-left: 10px solid white;
+  	position: absolute;
+  	top: 50%;
+  	left: 100%;
+}
+
+.milestoneRightTopContainer{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	width: 420px;
+	margin-left: 41px;
+	margin-top: 200px;
+}
+
+.milestoneRightTopArrow{
+	width: 0; 
+  	height: 0;
+  	border-top: 10px solid transparent;
+  	border-bottom: 10px solid transparent;
+  	border-right: 10px solid white;
+  	position: absolute;
+  	top: 50%;
+  	left: -10px;
+}
+
+.milestoneRightBottomContainer{
+	display: flex;
+	flex-direction: row;
+	width: 420px;
+	margin-left: 41px;
+	margin-top: 146px;
+	position: relative;
+}
+
+.milestoneRightBottomArrow{
+	width: 0; 
+  	height: 0;
+   	border-top: 10px solid transparent;
+  	border-bottom: 10px solid transparent;
+  	border-right: 10px solid white;
+  	position: absolute;
+  	top: 50%;
+  	left: -10px;
+}
+
+.milestoneHeader{
+	font-family: Asap-Bold;
+	font-size: 22pt;
+	color: #333333;
+	padding: 20px;
+	padding-bottom: 0px;
+}
+
+.milestoneContent{
+	font-family: Asap-Regular;
+	font-size: 20pt;
+	color: #999999;
+	padding: 20px;
+	padding-top: 0;
+
+}
+
+.milestoneLeftTopCircle{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: #f7d4d4;
+	position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 20%;
+}
+
+.milestoneLeftBottomCircle{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: #eb9393;
+	position: absolute;
+ 	left: 50%;
+    transform: translate(-50%,-50%);
+    top: 60%;
+}
+
+.milestoneRightTopCircle{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: #efa9a9;
+	position: absolute;
+ 	left: 50%;
+    transform: translate(-50%,-50%);
+    top: 40%;
+
+}
+
+.milestoneRightBottomCircle{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: #e36868;
+	position: absolute;
+ 	left: 50%;
+    transform: translate(-50%,-50%);
+    top: 80%;
+}
+
+.nowCircle{
+	height: 80px;
+	display: flex;
+	width: 80px;
+	border-radius: 50%;
+	background-color: #db3d3d;
+	position: absolute;
+	border: 6px solid transparent;
+	border-color: #ffffff;
+ 	left: 50%;
+    transform: translate(-50%,-50%);
+    top: 100%;
+	font-family: Asap-Regular;
+	font-size:20.3pt;
+	text-align: center;
+	color:grey;
+	align-items: center;
+	justify-content: center;
+}
+
+.now{
+	font-family: Asap-Bold;
+	color: white;
+	font-size: 13pt;
+}
+
+.startingYear{
+	font-family: Asap-Bold;
+	color: grey;
+	font-size: 13pt;
+}
+
+.fbLogo{
+	padding-right: 10px;
 }
